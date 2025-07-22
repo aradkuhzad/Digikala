@@ -9,7 +9,7 @@
 
 
 @media (min-width: 1024px) { /*tableet*/
-    .top-image{
+    .top-image img{
         height: 60px;
     }
 }
