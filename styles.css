@@ -1,0 +1,16 @@
+.top-image img {
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    object-fit: cover;
+
+}
+
+
+
+@media (min-width: 1024px) { /*tableet*/
+    .top-image{
+        height: 60px;
+    }
+}
+    
