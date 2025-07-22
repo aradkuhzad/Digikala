@@ -1,9 +1,44 @@
+
 .top-image img {
     display: inline-block;
     width: 100%;
     height: 35px;
     object-fit: cover;
 
+}
+
+
+@font-face {
+    font-family: 'CubeFont';
+    src: url('icon/cube-v8.3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.test-icon {
+    font-family: 'CubeFont';
+    font-size: 48px;
+    color: #e6123d;
+}
+
+.notif-icon {
+    font-family: 'CubeFont';
+    font-size: 48px;
+    color: #e6123d;
+}
+
+.notif-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #f3f3f3;
+    border-radius: 50%;
+}
+.notif-circle .notif-icon {
+    font-size: 24px;
+    color: #333;
 }
 
 
