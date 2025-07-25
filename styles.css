@@ -33,12 +33,6 @@
 
 
 
-
-
-
-
-
-
 .notif-circle {
     position: relative;
     display: inline-flex;
@@ -56,9 +50,6 @@
     font-size: 24px;
     color: rgb(66, 71, 80);
 }
-
-
-
 
 
 
@@ -91,8 +82,6 @@
     direction: rtl;
     line-height: 24.08px;
   }
-
-
 
 
   
@@ -189,8 +178,6 @@
     }
     
 }
-
-
 
 
 @media (min-width: 1024px) { /*tableet*/
