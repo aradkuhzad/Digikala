@@ -203,6 +203,15 @@
     .top-image::after {
         display: none;
     }
+
+    .digikala-logo {
+        position: relative;
+        font-size: 24px;
+        width: 490px;
+        height: 30px;
+        margin-left: -300px;
+        top: -20px;
+    }
 }
     
 
