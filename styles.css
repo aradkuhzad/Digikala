@@ -37,26 +37,29 @@
 } 
 
 .search-bar-right {
-     display: flex;
-     align-items: center;
-     gap: 12px;
-    }
-
+    display: flex;
+    align-items: center;
+    /* اگر می‌خواهی کل این مجموعه سمت راست باشه: */
+    justify-content: flex-end;
+    /* اگر می‌خواهی وسط باشه، این خط رو بردار */
+    gap: 0; /* فاصله رو با margin کنترل می‌کنیم */
+    width: 100%;
+}
 
 .search-box-right {
-     position: relative;
     display: flex;
     align-items: center;
     background-color: #f0f0f1;
     border-radius: 8px;
     padding: 8px 16px;
     gap: 4px;
-    right: -50px;
-    width: 0;
     direction: rtl;
-    min-width: 80px;
-    max-width: 400px;
-    flex-grow: 2; 
+    min-width: 120px;      
+    max-width: 400px;      
+    flex-grow: 1;         
+    margin-right: 24px;   
+    margin-left: 12px;     
+    box-sizing: border-box;
 }
 
 .search-text {
@@ -87,8 +90,9 @@
     background: #fff;
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-right: 8px;
     cursor: pointer;
+    /* فاصله اضافه لازم نیست چون search-box-right فاصله داده */
+    margin: 0;
 }
 
 .notif-icon {
