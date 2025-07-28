@@ -43,4 +43,5 @@
 .search-box-right {
     display: flex;
     flex-grow: 1;
+    direction: rtl;
 }
