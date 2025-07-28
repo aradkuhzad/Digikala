@@ -46,15 +46,15 @@
 .search-box-right {
     display: flex;
     align-items: center;
-    background: #fff;
+    background-color: #f0f0f1;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     padding: 8px 16px;
     gap: 8px;
     direction: rtl;
     width: 0;         
-    min-width: 120px;
-    flex-grow: 1;  
+    min-width: 80px;
+    max-width: 400px;
+    flex-grow: 1; 
 }
 
 .search-text {
