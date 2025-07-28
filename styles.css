@@ -39,11 +39,9 @@
 .search-bar-right {
     display: flex;
     align-items: center;
-    /* اگر می‌خواهی کل این مجموعه سمت راست باشه: */
     justify-content: flex-end;
-    /* اگر می‌خواهی وسط باشه، این خط رو بردار */
-    gap: 0; /* فاصله رو با margin کنترل می‌کنیم */
     width: 100%;
+    gap: 0; /* فاصله رو با margin کنترل می‌کنیم */
 }
 
 .search-box-right {
@@ -54,12 +52,13 @@
     padding: 8px 16px;
     gap: 4px;
     direction: rtl;
-    min-width: 120px;      
-    max-width: 400px;      
-    flex-grow: 1;         
-    margin-right: 24px;   
-    margin-left: 12px;     
+    min-width: 120px;
+    max-width: 400px;
+    flex-grow: 1;
+    margin-right: 24px;   /* فاصله از سمت راست */
+    margin-left: 0;       /* فاصله از سمت چپ حذف شود */
     box-sizing: border-box;
+    /* تصویر داخل باکس کش بیاد: */
 }
 
 .search-text {
@@ -70,6 +69,8 @@
 
 .digikala-logo {
     height: 24px;
+    width: 100%;      /* این خط باعث میشه تصویر کش بیاد */
+    object-fit: contain;
     margin-right: 4px;
 }
 
@@ -82,7 +83,6 @@
 
 
 .notif-circle {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,8 +92,8 @@
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     cursor: pointer;
-    margin: 0;
-    left: -50px;
+    margin-left: 16px; /* فاصله بین نوتیف و باکس سرچ */
+    margin-right: 0;
 }
 
 .notif-icon {
