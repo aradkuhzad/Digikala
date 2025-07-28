@@ -82,6 +82,7 @@
 
 
 .notif-circle {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,8 +92,8 @@
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     cursor: pointer;
-    /* فاصله اضافه لازم نیست چون search-box-right فاصله داده */
     margin: 0;
+    left: -50px;
 }
 
 .notif-icon {
