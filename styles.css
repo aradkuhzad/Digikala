@@ -37,11 +37,60 @@
 } 
 
 .search-bar-right {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+    }
 
-}
 
 .search-box-right {
     display: flex;
-    flex-grow: 1;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 8px 16px;
+    gap: 8px;
     direction: rtl;
+    width: 0;         
+    min-width: 120px;
+    flex-grow: 1;  
+}
+
+.search-text {
+    font-family: 'iranyekan', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+.digikala-logo {
+    height: 24px;
+    margin-right: 4px;
+}
+
+.left-icon {
+    font-family: 'CubeFont';
+    font-size: 20px;
+    color: #a1a3a8;
+    margin-right: 8px;
+}
+
+
+.notif-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.notif-icon {
+    font-family: 'CubeFont';
+    font-size: 22px;
+    color: #a1a3a8;
 }
