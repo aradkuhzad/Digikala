@@ -41,7 +41,7 @@
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    gap: 0; /* فاصله رو با margin کنترل می‌کنیم */
+    gap: 0;
 }
 
 .search-box-right {
@@ -55,10 +55,9 @@
     min-width: 120px;
     max-width: 400px;
     flex-grow: 1;
-    margin-right: 24px;   /* فاصله از سمت راست */
-    margin-left: 0;       /* فاصله از سمت چپ حذف شود */
+    margin-right: 24px;
+    margin-left: 0;
     box-sizing: border-box;
-    /* تصویر داخل باکس کش بیاد: */
 }
 
 .search-text {
@@ -69,7 +68,7 @@
 
 .digikala-logo {
     height: 24px;
-    width: 100%;      /* این خط باعث میشه تصویر کش بیاد */
+    width: 100%;
     object-fit: contain;
     margin-right: 4px;
 }
@@ -92,7 +91,7 @@
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     cursor: pointer;
-    margin-left: 16px; /* فاصله بین نوتیف و باکس سرچ */
+    margin-left: 16px;
     margin-right: 0;
 }
 
