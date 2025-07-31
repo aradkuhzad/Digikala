@@ -74,8 +74,10 @@
 }
 
 .digikala-logo {
+    position: relative;
     height: 16px;
-    width: 61px;
+    width: 61px !important;
+    left: 5px;
 }
 
 .left-icon {
