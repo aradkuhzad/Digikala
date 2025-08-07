@@ -1,12 +1,4 @@
 
-.header-banner img {
-    display: block;
-    width: 100%;
-    height: 35px;
-    object-fit: cover;
-}
-
-
 @font-face {
     font-family: 'CubeFont';
     src: url('icon/cube-v8.3.woff') format('woff');
@@ -31,6 +23,14 @@
 }
 
 
+.header-banner img {
+    display: block;
+    width: 100%;
+    height: 35px;
+    object-fit: cover;
+}
+
+
 
 .header-search-container {
   display: flex;
@@ -44,6 +44,8 @@
 
 .search-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-grow: 1;
     background-color: #000;
     color: #fff;
@@ -52,18 +54,30 @@
 
 
 
-.search-input-wrapper svg {
-  position: relative;
-  box-sizing: border-box;
-  width: 24px;
-  height: 24px;
+.search-input-wrapper {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-weight: 400;
-  font-size: 8.8px;
-  line-height: 19.096px;
-  overflow-clip-margin: content-box;
+  gap: 10px;
 }
+
+.search-input-wrapper svg {
+  width: 20px;
+  height: 20px;
+}
+
+.search-placeholder {
+  color: #757575;
+  font-size: 15px;
+}
+
+.brand-logo {
+  width: 70px;
+  height: auto;
+}
+
+
+
 
 
 
