@@ -61,10 +61,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
   font-size: 8.8px ;
   position: relative;
-  column-gap: 4px;
 }
 
 .search-icon {
@@ -92,8 +90,10 @@
 }
 
 .brand-logo {
+  position: relative;
   width: auto;
   height: 16px;
+  top: 0.5px;
 }
 
 .notification-button {
