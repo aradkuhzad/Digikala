@@ -139,6 +139,18 @@
     gap: 3px;
 }
 
+.login {
+  display: none;
+}
+
+.search-text-responsive {
+  display: none;
+}
+
+
+.brand-logo-big {
+  display: none;
+}
 
 
 

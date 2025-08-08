@@ -4,5 +4,94 @@
     height: 60px;
     object-fit: cover;
   }
+
+  .header-banner {
+    box-shadow: none !important;
+  }
+
+  .header-search-container {
+    position: relative;
+    top: 0px !important;
+    padding-left: 0px;
+    margin: 0px 12px;
+  }
+
+  .logo-responsive {
+    display: flex;
+    height: 44px;
+    width: 195px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .brand-logo-big {
+    display: block;
+    font-size: 10px;
+    width: 195px;
+    height: 30px;
+  } 
+
+  .search-container {
+    width: 600px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 0px 16px;
+  }
+
+  .search-text-responsive {
+    display: block;
+
+  }
+
+  .search-placeholder {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .brand-logo {
+    display: none;
+  }
+
+  .notification-button {
+    position: relative;
+    background-color: transparent;
+    margin-left: 12px;
+    left: 7px;
+    top: 2px;
+  }
+
+  .notification-icon {
+  }
+
+  .login {
+    display: flex;
+    background: #fff;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    color: #222;
+    align-items: center;
+    padding: 0 16px;
+    width: 134px;
+    height: 40px;
+    font-size: 14px;
+    box-shadow: none;
+    justify-content: flex-end;
+  }
+
+  .icon-text-login {
+
+  }
+
+  .login-icon {
+
+  }
+
+  .text-login {
+
+  }
     
 }
