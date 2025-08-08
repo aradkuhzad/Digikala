@@ -91,7 +91,7 @@
 
 .brand-logo {
   position: relative;
-  width: auto;
+  width: 61px;
   height: 16px;
   top: 0.5px;
 }
@@ -136,7 +136,7 @@
     display: flex;
     padding-right: 8px;
     padding-left: 8px;
-    gap: 4px;
+    gap: 3px;
 }
 
 

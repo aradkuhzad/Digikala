@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+   .header-banner {
+	   box-shadow: 0 24px 0 0 rgba(0, 0, 0, 0.04);
+   }
+
+   .header-search-container {
+    position: relative;
+    top: 25px;
+   }
+
+   .brand-logo { 
+    top: 2.5px;   
+   }
+
+   .search-icon {
+    position: relative;
+    top: -1px;
+   }
+}

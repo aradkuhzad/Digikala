@@ -1,0 +1,9 @@
+@media (min-width: 360px) {
+    .search-placeholder {
+        font-size: 14px;
+    }    
+
+    .brand-logo {
+        top: 3px;
+    }
+}
