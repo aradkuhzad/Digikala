@@ -37,7 +37,6 @@
   flex-wrap: nowrap;
   direction: rtl;
   flex-grow: 1;
-  height: 102.8px;
   padding: 12px 16px;
 }
 
@@ -153,5 +152,7 @@
 }
 
 
-
+.search-container-gap {
+  flex-grow: 1;
+}
 
