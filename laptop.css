@@ -13,27 +13,25 @@
     position: relative;
     top: 0px !important;
     padding-left: 0px;
-    margin: 0px 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-top: 12px;
+    margin-left: 12px;
+    align-items: center;
   }
 
-  .logo-responsive {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
 
   .brand-logo-big {
     display: block;
     font-size: 10px;
     width: 195px;
-    height: 30px;
+    margin-left: 20px;
   } 
 
   .search-container-gap {
     display: flex;
-    width: 100%;
+    width: 80px;
+    flex-grow: 1;
   }
 
   .search-container {
