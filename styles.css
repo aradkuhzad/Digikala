@@ -156,3 +156,7 @@
   flex-grow: 1;
 }
 
+.shopping {
+  display: none;
+}
+
