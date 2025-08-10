@@ -59,6 +59,11 @@
     display: none;
   }
 
+  .left-container {
+    display: flex;
+    margin-right: -40px;
+  }
+
   .notification-button {
     position: relative;
     display: flex;
@@ -101,6 +106,7 @@
 
 
   .shopping {
+    position: relative;
     display: flex;
   }
     
