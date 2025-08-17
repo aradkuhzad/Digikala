@@ -74,9 +74,8 @@
     position: relative;
     display: flex;
     background-color: transparent;
+    margin-right: 4px !important;
     margin-left: 12px;
-    left: 7px;
-    top: 2px;
   }
 
   .notification-icon {
