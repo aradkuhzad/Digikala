@@ -44,7 +44,13 @@
 
   .search-text-responsive {
     display: block;
-
+    font-family: 'IRANYekanmedium';
+    width: 512px;
+    height: 26.0375px;
+    font-size: 12px;
+    line-height: 26.04px;
+    color: rgb(129, 133, 139);
+    padding: 0px 8px;
   }
 
   .search-placeholder {
