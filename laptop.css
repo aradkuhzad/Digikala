@@ -42,8 +42,8 @@
     padding: 0px 16px;
   }
 
-  .search-input-wrapper {
-    
+  .search-input-wrapper svg {
+    margin-top: 1px !important;
   }
 
   .search-text-responsive {
