@@ -75,6 +75,7 @@
     display: flex;
     background-color: transparent;
     margin-left: 12px;
+    padding-right: 18px;
   }
 
   .notification-icon {
