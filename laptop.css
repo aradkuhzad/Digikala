@@ -42,15 +42,19 @@
     padding: 0px 16px;
   }
 
+  .search-input-wrapper {
+    
+  }
+
   .search-text-responsive {
     display: block;
     font-family: 'IRANYekanmedium';
     width: 512px;
     height: 26.0375px;
-    font-size: 12px;
+    font-size: 11.5px;
     line-height: 26.04px;
     color: rgb(129, 133, 139);
-    padding: 0px 8px;
+    padding: 0px 8.5px;
   }
 
   .search-placeholder {
