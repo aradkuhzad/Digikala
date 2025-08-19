@@ -26,6 +26,11 @@
     font-weight: 700;
 }
 
+@font-face {
+  font-family: 'IRANYekanExtra' sans-serif;
+  src: url('iranyekanwebextrabold.9346e9a2.woff') format('woff');
+}
+
 
 .header-banner img {
     display: block;

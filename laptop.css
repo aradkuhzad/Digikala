@@ -103,8 +103,7 @@
 
   .icon-text-login {
     display: flex;
-    font-family: 'IRANYekanmedium';
-    font-weight: bold;
+    color: #0c0c0c;
   }
 
   .login-icon {
@@ -114,7 +113,10 @@
   
 
   .text-login {
-
+    font-size: 12px;
+    font-family: 'IRANYekanmedium';
+    font-weight: bold;
+    font-stretch: 100%;
   }
 
 
