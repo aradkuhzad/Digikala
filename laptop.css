@@ -104,6 +104,8 @@
   .icon-text-login {
     display: flex;
     color: #0c0c0c;
+    gap: 8.5px;
+    align-items: center;
   }
 
   .login-icon {
@@ -115,7 +117,7 @@
   .text-login {
     font-size: 12px;
     font-family: 'IRANYekanmedium';
-    font-weight: bold;
+    font-weight: 700;
     font-stretch: 100%;
   }
 
