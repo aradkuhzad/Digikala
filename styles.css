@@ -13,22 +13,26 @@
 
 @font-face {
     font-family: 'iranyekan';
-    src: url('font/iranyekanweb.woff') format('woff');
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IRANYekanmedium';
-    src: url('font/iranyekanwebmedium.2d4f96e5.woff') format('woff');
+    src: url('font/iranyekanwebbold.cfb6e26c.woff2') format('.woff2');
     font-display: swap;
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
-  font-family: 'IRANYekanExtra' sans-serif;
+    font-family: 'IRANYekanmedium';
+    src: url('font/iranyekanwebmedium.2d4f96e5.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+  font-family: 'IRANYekanExtra';
   src: url('iranyekanwebextrabold.9346e9a2.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IRANYekanRegular';
+  src: url('font/iranyekanwebregular.e31c09af.woff2') format('.woff2');
 }
 
 
