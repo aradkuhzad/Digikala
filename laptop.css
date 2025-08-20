@@ -120,8 +120,9 @@
     font-weight: 700;
     font-stretch: 100%;
   }
-
-
  
-    
+
+  .shopping {
+    display: none;
+  }
 }
