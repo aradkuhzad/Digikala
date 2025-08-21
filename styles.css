@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'IRANYekanmedium';
     src: url('font/iranyekanwebmedium.2d4f96e5.woff') format('woff');
-    font-weight: bold;
+    font-weight: 400;
 }
 
 @font-face {
@@ -169,5 +169,32 @@
 
 .shopping {
   display: none;
+}
+
+
+
+
+.location {
+  display: flex;
+  direction: rtl;
+  margin-top: 8px;
+  row-gap: 6px;
+  column-gap: 6px;
+}
+
+.location-icon {
+  font-family: 'CubeFont'
+}
+
+.text-location {
+  font-family: 'IRANYekanmedium';
+  font-size: 9.6px;
+  font-weight: 400 !important;
+  line-height: 17.28px;
+
+}
+
+.mark-location {
+  font-family: 'CubeFont'
 }
 
