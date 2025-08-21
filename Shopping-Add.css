@@ -1,6 +1,22 @@
 @media (min-width: 1099px) {  /*Adding a shopping cart icon to the site in this size*/
+    .shopping-container {
+        display: flex;
+        align-items: center;
+    }
+ 
     .shopping {
         display: flex;
+        padding: 8px;
+        
+    }
+
+    .line {
+        display: flex;
+        background-color: rgb(224, 224, 226);
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 1px;
+        height: 24px;
     }
     
 }
