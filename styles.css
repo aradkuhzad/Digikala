@@ -172,21 +172,32 @@
 }
 
 
+.header-location {
+  width: 100%;
+  display: flex;
+  direction: rtl;
+  padding: 0px 16px;
+  padding-bottom: 12px;
+}
 
 
 .location {
   display: flex;
   direction: rtl;
-  margin-top: 8px;
-  row-gap: 6px;
-  column-gap: 6px;
+  row-gap: 8px;
+  column-gap: 8px;
+  align-items: center;
 }
 
 .location-icon {
-  font-family: 'CubeFont'
+  display: flex;
+  font-family: 'CubeFont';
+  font-size: 20px;
+  color: rgb(66, 71, 80);
 }
 
 .text-location {
+  display: flex;
   font-family: 'IRANYekanmedium';
   font-size: 9.6px;
   font-weight: 400 !important;
@@ -195,6 +206,9 @@
 }
 
 .mark-location {
-  font-family: 'CubeFont'
+  display: flex;
+  font-family: 'CubeFont';
+  color: rgb(66, 71, 80);
+  font-size: 24px;
 }
 
