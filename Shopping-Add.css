@@ -1,4 +1,9 @@
 @media (min-width: 1099px) {  /*Adding a shopping cart icon to the site in this size*/
+    .header-search-container {
+        padding-left: 16px;
+        margin-left: 0px;
+    }
+ 
     .shopping-container {
         display: flex;
         align-items: center;
@@ -7,7 +12,7 @@
     .shopping {
         display: flex;
         padding: 8px;
-        
+
     }
 
     .line {
