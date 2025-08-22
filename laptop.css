@@ -146,11 +146,10 @@
   .item1 svg {
     display: block;
     box-sizing: border-box;
-    width: 20px;
-    height: 20px;
     font-size: 14px;
     font-weight: 700;
     line-height: 30.1px;
+    align-items: center;
   }
 
   .text-item1 {
