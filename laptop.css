@@ -134,15 +134,28 @@
 
   .nav-bar {
     display: flex !important;
+    align-items: center;
+    width: 100%;
+    height: 40px;
   }
 
   .item1 {
     display: flex;
   }
 
-  .item1 svg {}
+  .item1 svg {
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30.1px;
+  }
 
   .text-item1 {
+    font-size: 14px;
+    font-family:  "IRANYekanmedium";
   }
 
   .line-1 {
