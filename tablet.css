@@ -7,4 +7,12 @@
     position: relative;
     top: -1px;
    }
+
+   .search-icon {
+      top: -0.5px;
+   }
+
+   .nav-bar {
+      display: none;
+   }
 }
