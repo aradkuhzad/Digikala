@@ -125,4 +125,35 @@
   .shopping {
     display: none;
   }
+
+
+
+  .location {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex !important;
+  }
+
+  .item1 {
+    display: flex;
+  }
+
+  .item1 svg {}
+
+  .text-item1 {
+  }
+
+  .line-1 {
+    display: flex;
+    background-color: #E0E0E2;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 1px;
+    height: 16px;
+  }
+
 }
+
+
