@@ -1,0 +1,6 @@
+        <div class="header-banner">
+            <picture>
+                <source srcset="image/new-new-image-big.gif" media="(min-width: 1024px)">
+                <img src="image/new-new-top-image.gif"> 
+                </picture>
+        </div>
